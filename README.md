@@ -6,7 +6,7 @@
 스트라이드와 패딩 설정으로 출력 맵의 공간 해상도(크기)를 자유롭게 설정가능.<br>
 완전연결 층에선 모든 입력 뉴런과 출력 뉴런이 연결되있어 ‘전역적’ 특징을 학습하지만, 파라미터 수가 많아 과적합 위험도 존재.
 
-**요약: CNN 학습 흐름
+**요약 : CNN 학습 흐름
 입력 -> (Conv → Activation → Pooling) × N = 계층별로 국소 특징 추출
 Flatten -> Fully Connected -> Activation -> Loss 계산 -> Optimizer로 파라미터 업데이트 -> Epoch 반복 + Regularization 적용**
 
