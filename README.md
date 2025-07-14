@@ -6,8 +6,7 @@ https://claude.ai/public/artifacts/2cebc728-66b5-414a-9e97-991f60a2a7e1<br>
 
 <img width="1112" height="451" alt="image" src="https://github.com/user-attachments/assets/40de01f9-e85c-4733-9d86-febbf3906741" />
  대각선 필터로 컨볼루션해나가는 모습, stride=1 이기에 (3x3)결과가 나온다!<br>
-
-
+<br>
 왜 중요한가?<br>
 입력 이미지에 커널을 슬라이딩하며 국소 영역의 정보를 요약(내적)해 새로운 특징 맵을 만듬. <br>전반의 패턴(엣지, 코너, 질감 등)을 ‘위치-불변성’ 있게 학습할 수 있어, 복잡한 패턴도 단계별로 계층화해 인식 가능<br>
 스트라이드와 패딩 설정으로 출력 맵의 공간 해상도(크기)를 자유롭게 설정가능.<br>
