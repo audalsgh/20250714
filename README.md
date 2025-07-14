@@ -25,8 +25,8 @@ https://claude.ai/public/artifacts/2cebc728-66b5-414a-9e97-991f60a2a7e1<br>
 <img width="1575" height="540" alt="image" src="https://github.com/user-attachments/assets/72d31710-2dad-4427-8420-1f11deeaa716" />
 - 중심 픽셀 값에 5를 곱하면서, 주변 픽셀을 -1을 곱해 빼는 방식으로, 중심 픽셀이 주변보다 상대적으로 매우 밝음을 강조하는 샤프닝 필터를 사용함.<br>
 - 피쳐맵 결과의 값 = 절댓값이 클수록 이미지의 경계(엣지)와 세부 디테일이 부각됨<br>
-
-
+<br>
+<br>
 
 <img width="1231" height="679" alt="image" src="https://github.com/user-attachments/assets/4b4127b0-6865-4063-8a8f-d57ab0bec276" />
 - 일반적으로 이미지 픽셀마다 RGB값 3개를 모두 저장한다.
@@ -36,6 +36,8 @@ https://claude.ai/public/artifacts/2cebc728-66b5-414a-9e97-991f60a2a7e1<br>
 - 컨볼루션을 거치면서 0값이였던 테두리도 값을 가지게 된다.<br>
 <img width="1383" height="650" alt="image" src="https://github.com/user-attachments/assets/9a6f3244-520e-4ce0-a185-127dcfc5727d" />
 - ReLU(렐루) : ReLU(x) = max(0, x)를 입력해 음수는 모두 0이 되므로, 활성화된 뉴런(양수값)이 상대적으로 적어, 효율적이고 안정적으로 빠른 표현 학습이 가능.
+<img width="1383" height="491" alt="image" src="https://github.com/user-attachments/assets/c80bdee4-a996-44ed-9077-3774104e962a" />
+- 렐루를 거쳐서 훨씬 빠르고 안정적이게 컨볼루션을 진행했고, 그 피쳐맵을 통해 결과 이미지(히트맵)을 얻어냈다.
 
 ## 2. CNN 세부 용어 정리
 왜 중요한가?<br>
