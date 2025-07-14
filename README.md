@@ -5,7 +5,7 @@ https://claude.ai/public/artifacts/2cebc728-66b5-414a-9e97-991f60a2a7e1<br>
 컨볼루션에 대한 애니메이션
 
 <img width="1112" height="451" alt="image" src="https://github.com/user-attachments/assets/40de01f9-e85c-4733-9d86-febbf3906741" />
-- 대각선 필터로 컨볼루션해나가는 모습, stride=1 이기에 (3x3) 피쳐맵이 나온다!
+- 대각선 필터로 컨볼루션해나가는 모습, stride=1 이기에 (3x3) 피쳐맵이 나온다!<br>
 - 피쳐맵 결과에서 값이 클수록 픽셀이 많이 검출된 것!<br>
 
 <img width="985" height="638" alt="image" src="https://github.com/user-attachments/assets/d0e9361c-ed1b-41d3-95a0-650b26084950" />
