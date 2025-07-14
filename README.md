@@ -1,4 +1,4 @@
-# 16일차, 내일 배울 CNN필터 코드가 300줄 이상이니 잘 정리하자
+# 16일차, <br>내일 배울 CNN필터 코드가 300줄 이상이니 잘 정리하자
 
 ## 1. CNN (Convolutional Neural Network) 필터 종류 정리
 https://claude.ai/public/artifacts/2cebc728-66b5-414a-9e97-991f60a2a7e1<br>
