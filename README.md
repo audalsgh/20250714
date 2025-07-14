@@ -32,7 +32,7 @@ https://claude.ai/public/artifacts/a3bda456-4c3f-4127-a921-21ad4c351c98<br>
 https://claude.ai/public/artifacts/df7a5986-dd0a-4a16-af85-ad90959de392<br>
 패딩과 렐루 애니메이션 링크
 <img width="1231" height="679" alt="image" src="https://github.com/user-attachments/assets/4b4127b0-6865-4063-8a8f-d57ab0bec276" />
-일반적으로 이미지 픽셀마다 RGB값 3개를 모두 저장한다.
+- 일반적으로 이미지 픽셀마다 RGB값 3개를 모두 저장한다.
 <img width="1186" height="593" alt="image" src="https://github.com/user-attachments/assets/d1cdf3a2-cb21-46a1-9abb-b37bfead7ec3" />
 - 패딩 개념 : (5x5) 입력인데, 필터를 거치니 (3x3) 결과를 얻었다. 원래 크기 (5x5)를 다시 얻기위해 바깥 테두리에 1칸씩 늘리고 필터와 컨볼루션을 하자!
 <img width="1372" height="461" alt="image" src="https://github.com/user-attachments/assets/a3296157-cd73-4e53-9d0a-8cef6889cd2d" />
