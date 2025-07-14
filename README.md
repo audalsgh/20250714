@@ -26,6 +26,7 @@ https://claude.ai/public/artifacts/2cebc728-66b5-414a-9e97-991f60a2a7e1<br>
 - 중심 픽셀 값에 5를 곱하면서, 주변 픽셀을 -1을 곱해 빼는 방식으로, 중심 픽셀이 주변보다 상대적으로 매우 밝음을 강조하는 샤프닝 필터를 사용함.<br>
 - 피쳐맵 결과의 값 = 절댓값이 클수록 이미지의 경계(엣지)와 세부 디테일이 부각됨
 
+<br>
 <img width="1231" height="679" alt="image" src="https://github.com/user-attachments/assets/4b4127b0-6865-4063-8a8f-d57ab0bec276" />
 - 일반적으로 이미지 픽셀마다 RGB값 3개를 모두 저장한다.
 <img width="1186" height="593" alt="image" src="https://github.com/user-attachments/assets/d1cdf3a2-cb21-46a1-9abb-b37bfead7ec3" />
