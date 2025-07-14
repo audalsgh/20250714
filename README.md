@@ -12,6 +12,7 @@ https://claude.ai/public/artifacts/2cebc728-66b5-414a-9e97-991f60a2a7e1<br>
 스트라이드와 패딩 설정으로 출력 맵의 공간 해상도(크기)를 자유롭게 설정가능.<br>
 완전연결 층에선 모든 입력 뉴런과 출력 뉴런이 연결되있어 ‘전역적’ 특징을 학습하지만, 파라미터 수가 많아 과적합 위험도 존재.<br>
 <br>
+
 **요약 : CNN 학습 흐름<br>
 입력 -> (Convolution -> Kernel) = 계층별로 국소 특징 추출 ->  CNN에서 합성곱 층을 거친 뒤에 나오는 2D 출력인 Feature Map 생성 -> Pooling으로 해상도 축소<br>
 Flatten으로 1차원 벡터화 -> Fully Connected Layer이 만들어짐-> Activation Function 활성화 함수 적용해 근사 -> Loss 계산이 가능해짐 -> Optimizer로 파라미터 업데이트 -> Epoch 반복 + Regularization 적용**
