@@ -10,9 +10,11 @@ https://claude.ai/public/artifacts/2cebc728-66b5-414a-9e97-991f60a2a7e1<br>
 
 <img width="985" height="638" alt="image" src="https://github.com/user-attachments/assets/d0e9361c-ed1b-41d3-95a0-650b26084950" />
 <img width="1566" height="529" alt="image" src="https://github.com/user-attachments/assets/ea0e485a-4bdb-4bf4-a460-e4f2695d6f7e" /><br>
-(왼쪽 열이 음수값인 수평 엣지 필터 사용시, 왼쪽에서 오른쪽으로 밝기가 증가하는 엣지를 검출함)<br>
-(피쳐맵 결과의 양수값 = 왼쪽- > 오른쪽이 밝아지는 엣지 존재 / 피쳐맵 결과의 음수값 = 왼쪽 -> 오른쪽이 어두워지는 엣지 존재)
-
+ (왼쪽 열이 음수값인 수직 엣지 필터 사용시, 왼쪽에서 오른쪽으로 밝기가 증가하는 엣지를 검출함)<br>
+ (피쳐맵 결과의 양수값 = 왼쪽 -> 오른쪽이 밝아지는 엣지 존재 / 피쳐맵 결과의 음수값 = 왼쪽 -> 오른쪽이 어두워지는 엣지 존재)
+<img width="1573" height="530" alt="image" src="https://github.com/user-attachments/assets/ea708832-5207-4c44-a152-0d10411c80a4" />
+ (위쪽 행이 음수값이 수평 엣지 필터 사용시, 위에서 아래쪽으로 밝기가 증가하는 엣지를 검출함)<br>
+ (피쳐맵 결과의 양수값 = 위쪽 -> 아래쪽이 밝아지는 엣지 존재 / 피쳐맵 결과의 음수값 = 왼쪽 -> 오른쪽이 어두워지는 엣지 존재)
 
 
 
