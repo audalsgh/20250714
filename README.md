@@ -8,6 +8,8 @@ https://claude.ai/public/artifacts/2cebc728-66b5-414a-9e97-991f60a2a7e1<br>
 - 대각선 필터로 컨볼루션해나가는 모습, stride=1 이기에 (3x3) 피쳐맵이 나온다!<br>
 - 피쳐맵 결과에서 값이 클수록 픽셀이 많이 검출된 것!<br>
 
+https://claude.ai/public/artifacts/a3bda456-4c3f-4127-a921-21ad4c351c98<br>
+이미지를 직접 업로드하여 4개의 필터를 사용해보는 애니메이션 링크 
 <img width="985" height="638" alt="image" src="https://github.com/user-attachments/assets/d0e9361c-ed1b-41d3-95a0-650b26084950" />
 <img width="1566" height="529" alt="image" src="https://github.com/user-attachments/assets/ea0e485a-4bdb-4bf4-a460-e4f2695d6f7e" /><br>
 - 왼쪽 열이 음수값인 수직 엣지 필터 사용시, 왼쪽에서 오른쪽으로 밝기가 증가하는 엣지를 검출함<br>
@@ -26,7 +28,9 @@ https://claude.ai/public/artifacts/2cebc728-66b5-414a-9e97-991f60a2a7e1<br>
 - 중심 픽셀 값에 5를 곱하면서, 주변 픽셀을 -1을 곱해 빼는 방식으로, 중심 픽셀이 주변보다 상대적으로 매우 밝음을 강조하는 샤프닝 필터를 사용함.<br>
 - 피쳐맵 결과의 값 = 절댓값이 클수록 이미지의 경계(엣지)와 세부 디테일이 부각됨<br>
 <br>
-  
+
+https://claude.ai/public/artifacts/df7a5986-dd0a-4a16-af85-ad90959de392<br>
+패딩과 렐루 애니메이션 링크
 <img width="1231" height="679" alt="image" src="https://github.com/user-attachments/assets/4b4127b0-6865-4063-8a8f-d57ab0bec276" />
 - 일반적으로 이미지 픽셀마다 RGB값 3개를 모두 저장한다.
 <img width="1186" height="593" alt="image" src="https://github.com/user-attachments/assets/d1cdf3a2-cb21-46a1-9abb-b37bfead7ec3" />
