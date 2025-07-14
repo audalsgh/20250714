@@ -46,6 +46,7 @@ https://claude.ai/public/artifacts/df7a5986-dd0a-4a16-af85-ad90959de392<br>
 - 파란색 = 모델이 덜 중요하다고 판단한 부분.
 
 ## 2. CNN 세부 용어 정리
+[교수님의 자료](https://docs.google.com/document/d/1Np73nrbqW8hE7hS-2t1sqhM_OFPvciHb35YqMK60ceo/edit?tab=t.0)<br>
 왜 중요한가?<br>
 -> 전반적인 패턴(엣지, 코너, 질감 등)을 ‘위치-불변성’ 있게 학습할 수 있어, 복잡한 패턴도 단계별로 계층화해 인식 가능하기때문.<br>
 
