@@ -26,6 +26,14 @@ https://claude.ai/public/artifacts/2cebc728-66b5-414a-9e97-991f60a2a7e1<br>
 - 중심 픽셀 값에 5를 곱하면서, 주변 픽셀을 -1을 곱해 빼는 방식으로, 중심 픽셀이 주변보다 상대적으로 매우 밝음을 강조하는 샤프닝 필터를 사용함.<br>
 - 피쳐맵 결과의 값 = 절댓값이 클수록 이미지의 경계(엣지)와 세부 디테일이 부각됨
 
+<img width="1231" height="679" alt="image" src="https://github.com/user-attachments/assets/4b4127b0-6865-4063-8a8f-d57ab0bec276" />
+<img width="1186" height="593" alt="image" src="https://github.com/user-attachments/assets/d1cdf3a2-cb21-46a1-9abb-b37bfead7ec3" />
+- 패딩 개념 : (5x5) 입력인데, 필터를 거치니 (3x3) 결과를 얻었다. 원래 크기 (5x5)를 다시 얻기위해 바깥 테두리에 1칸씩 늘리고 필터와 컨볼루션을 하자!
+<img width="1372" height="461" alt="image" src="https://github.com/user-attachments/assets/a3296157-cd73-4e53-9d0a-8cef6889cd2d" />
+- 컨볼루션을 거치면서 0값이였던 테두리도 값을 가지게 된다.<br>
+<img width="1383" height="650" alt="image" src="https://github.com/user-attachments/assets/9a6f3244-520e-4ce0-a185-127dcfc5727d" />
+- ReLU(렐루) : ReLU(x) = max(0, x)를 입력해 음수는 모두 0이 되므로, 활성화된 뉴런(양수값)이 상대적으로 적어, 효율적이고 안정적으로 빠른 표현 학습이 가능.
+
 ## 2. CNN 세부 용어 정리
 왜 중요한가?<br>
 입력 이미지에 커널을 슬라이딩하며 국소 영역의 정보를 요약(내적)해 새로운 특징 맵을 만듬. <br>전반의 패턴(엣지, 코너, 질감 등)을 ‘위치-불변성’ 있게 학습할 수 있어, 복잡한 패턴도 단계별로 계층화해 인식 가능<br>
