@@ -7,8 +7,8 @@
 완전연결 층에선 모든 입력 뉴런과 출력 뉴런이 연결되있어 ‘전역적’ 특징을 학습하지만, 파라미터 수가 많아 과적합 위험도 존재.
 
 **요약 : CNN 학습 흐름<br>
-입력 -> (Conv → Activation → Pooling) × N = 계층별로 국소 특징 추출
-Flatten -> Fully Connected -> Activation -> Loss 계산 -> Optimizer로 파라미터 업데이트 -> Epoch 반복 + Regularization 적용**
+입력 -> (Convolution -> Pooling) × N = 계층별로 국소 특징 추출
+Flatten -> Fully Connected Layer-> Activation -> Loss 계산 -> Optimizer로 파라미터 업데이트 -> Epoch 반복 + Regularization 적용**
 
 | 용어                              | 설명                                                                                                              |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------|
