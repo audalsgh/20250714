@@ -1,7 +1,7 @@
 # 16일차
 
 ## CNN (Convolutional Neural Network) 정리
-컨볼루션에 대한 애니메이션
+컨볼루션에 대한 애니메이션<br>
 https://claude.ai/public/artifacts/2cebc728-66b5-414a-9e97-991f60a2a7e1
 
 왜 중요한가?<br>
