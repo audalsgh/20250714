@@ -7,7 +7,7 @@ https://claude.ai/public/artifacts/2cebc728-66b5-414a-9e97-991f60a2a7e1<br>
 <img width="1112" height="451" alt="image" src="https://github.com/user-attachments/assets/40de01f9-e85c-4733-9d86-febbf3906741" />
 - 대각선 필터로 컨볼루션해나가는 모습, stride=1 이기에 (3x3) 피쳐맵이 나온다!<br>
 - 피쳐맵 결과에서 값이 클수록 픽셀이 많이 검출된 것!<br>
-
+<br>
 https://claude.ai/public/artifacts/a3bda456-4c3f-4127-a921-21ad4c351c98<br>
 이미지를 직접 업로드하여 4개의 필터를 사용해보는 애니메이션 링크 
 <img width="985" height="638" alt="image" src="https://github.com/user-attachments/assets/d0e9361c-ed1b-41d3-95a0-650b26084950" />
