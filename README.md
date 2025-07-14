@@ -40,9 +40,9 @@ https://claude.ai/public/artifacts/df7a5986-dd0a-4a16-af85-ad90959de392<br>
 <img width="1383" height="650" alt="image" src="https://github.com/user-attachments/assets/9a6f3244-520e-4ce0-a185-127dcfc5727d" />
 - ReLU(렐루) : ReLU(x) = max(0, x)를 입력해 음수는 모두 0이 되므로, 활성화된 뉴런(양수값)이 상대적으로 적어, 효율적이고 안정적으로 빠른 표현 학습이 가능.
 <img width="1383" height="491" alt="image" src="https://github.com/user-attachments/assets/c80bdee4-a996-44ed-9077-3774104e962a" />
-- 렐루를 거쳐서 훨씬 빠르고 안정적이게 컨볼루션을 진행했고, 그 피쳐맵을 통해 결과 이미지(히트맵)을 얻어냈다.
-- 히트맵 : 피쳐맵의 각 RGB값에 색을 입혀 "모델이 중요하게 판단한 부분이 어딘지 강도(strength)"를 한눈에 보여 주는 시각화 기법.
-- 빨간색 = 모델이 중요하다고 판단하여 피쳐가 강하게 반응한 부분
+- 렐루를 거쳐서 훨씬 빠르고 안정적이게 컨볼루션을 진행했고, 그 피쳐맵을 통해 결과 이미지(히트맵)을 얻어냈다.<br>
+- 히트맵 : 피쳐맵의 각 RGB값에 색을 입혀 "모델이 중요하게 판단한 부분이 어딘지 강도(strength)"를 한눈에 보여 주는 시각화 기법.<br>
+- 빨간색 = 모델이 중요하다고 판단하여 피쳐가 강하게 반응한 부분<br>
 - 파란색 = 모델이 덜 중요하다고 판단한 부분.
 
 ## 2. CNN 세부 용어 정리
